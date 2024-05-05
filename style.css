@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FFF3C7;
+}
+
+/* NAVEGADOR */
+ .nav-container {
+    background-color: #FEC7B4;
+    padding-right: 50px;
+
+ }
+
+ .nav-bar {
+    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+ }
+
+ .nav-element {
+    
+    padding: 10px ;
+    margin: 20px;
+    border-radius: 30px ;
+       
+    
+ }
+.contact {
+    background-color: #F7418F;
+
+}
