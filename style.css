@@ -44,13 +44,12 @@ body {
 }
 
 /*Main*/
-.imagen-presentacion {
-    width: 380px;
-}
+.imagen-presentacion {}
+
 
 .section-ppl {
 
-    padding: 140px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,6 +93,7 @@ h1 {
 }
 
 
+
 /*MEDIA QUERY MOBILE*/
 @media (max-width: 576px) {
 
@@ -114,6 +114,16 @@ h1 {
 
     .div-section-ppl {
         align-items: center;
+    }
+
+    .img-ppl {
+        width: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen-presentacion {
+        width: 90%;
     }
 
 }
