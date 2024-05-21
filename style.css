@@ -60,23 +60,32 @@ body {
 
 h1 {
     font-size: 45px;
-    
+
 }
 
 .section-ppl-name {
-    font-style: italic ;
+    font-style: italic;
     font-size: 90px;
     color: #ff6884;
 
 }
+
 .section-ppl-desc {
-    font-weight:80 ;
+    font-weight: 80;
     font-size: 20px;
 }
 
-@media  (max-width: 576px){
+
+@media (max-width: 576px) {
 
     .section-ppl {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .section-ppl-desc {
+        text-align: center;
 
     }
 
