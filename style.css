@@ -114,9 +114,7 @@ h2 {
 }
 
 .card {
-    width: 35vh;
-    height: 35vh;
-    background-color: white;
+ 
     margin: 10px;
     display: flex;
     align-items: center;
@@ -125,6 +123,12 @@ h2 {
     border: solid 1px gray;
     text-align: center;
 
+}
+
+.card-conocimientos {
+    width: 35vh;
+    height: 35vh;
+    background-color: white;
 }
 
 .card:hover {
@@ -183,10 +187,31 @@ h2 {
     font-weight: bold;
  }
 
+/* Seccion Mis Proyecyos */
 
- .image-card {
-    width: 70px;
- }
+.section-proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-proyectos {
+    padding: 50px 100px;
+    
+}
+
+.card-proyectos {
+    
+    width: 45vh;
+    height: 45vh;
+}
+
+.image-card {
+    width: 20vh;
+}
+ 
 
 
 
