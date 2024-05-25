@@ -43,10 +43,8 @@ body {
 
 }
 
-/*Main
-.imagen-presentacion {
 
-}*/
+/*Main}*/
 
 
 .section-ppl {
@@ -123,7 +121,7 @@ h1 {
         display: flex;
         justify-content: center;
     }
-
+/**/
     .imagen-presentacion {
         width: 90%;
     }
