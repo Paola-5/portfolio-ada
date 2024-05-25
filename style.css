@@ -47,7 +47,7 @@ body {
 /*Main}*/
 
 
-.section-ppl {
+.section-doble {
 
 
     display: flex;
@@ -61,6 +61,11 @@ body {
 h1 {
     font-size: 45px;
 
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .section-ppl-name {
@@ -92,12 +97,65 @@ h1 {
     flex-direction: column;
 }
 
+.container-conocimientos {
 
+    text-align: center;
+    background-color: #FFEFEF;
+
+    padding-top: 140px;
+
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 35vh;
+    height: 35vh;
+    background-color: white;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid gray;
+}
+
+.card:hover {
+    border: solid #ff6884;
+}
+
+.card-image {
+    font-size: 80px;
+}
+
+.nombre-card {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conocimientos-texto {
+    box-sizing: border-box;
+    width: 40%;
+
+}
+
+.div-conocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 /*MEDIA QUERY MOBILE*/
 @media (max-width: 576px) {
 
-    .section-ppl {
+    .section-doble {
         flex-wrap: wrap;
         justify-content: center;
 
@@ -121,9 +179,20 @@ h1 {
         display: flex;
         justify-content: center;
     }
-/**/
+
+    /**/
     .imagen-presentacion {
         width: 90%;
+    }
+
+    .card {
+        width: 20vh;
+        height: 20vh;
+        margin: 10px;
+    }
+
+    .card-image {
+        font-size: 50px;
     }
 
 }
