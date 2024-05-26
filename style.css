@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -17,12 +16,10 @@ body {
     position: fixed;
     width: 100%;
     z-index: 2;
-
     box-shadow: 3px 3px 4px 3px #d4bdbd
 }
 
 .nav-bar {
-
     width: 100%;
     height: 60px;
     display: flex;
@@ -30,7 +27,6 @@ body {
     justify-content: end;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .nav-element {
@@ -55,24 +51,10 @@ body {
     color: white;
 }
 
-/* Sección Main}*/
+/* Sección Presentacion */
 
-
-.section-doble {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-h1 {
+.seccion-ppl-me {
     font-size: 45px;
-
-}
-
-h2 {
-    font-size: 45px;
-    font-weight: bold;
 }
 
 .presentacion {
@@ -81,11 +63,17 @@ h2 {
     justify-content: center;
 }
 
+.div-section-ppl {
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    flex-grow: 1;
+}
+
 .section-ppl-name {
     font-style: italic;
     font-size: 90px;
     color: #ff6884;
-
 }
 
 .section-ppl-desc {
@@ -110,49 +98,19 @@ h2 {
     text-decoration-line: none;
 }
 
-.div-section-ppl {
-    display: flex;
-    flex-direction: column;
-    margin-left: 160px;
-    flex-grow: 1;
-}
-
 .img-ppl {
-
     display: flex;
     justify-content: center;
     margin-right: 160px;
     flex-grow: 1;
     height: 380px;
-
-
 }
 
-.imagen-presentacion {}
+/* Seccion Mis Conocimientos */
 
 .container-conocimientos {
     background-color: #FFEFEF;
     padding-top: 100px;
-}
-
-.container-cards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 200px;
-}
-
-.card {
-
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    border: solid 1px gray;
-    text-align: center;
-    transition: 0.1s;
 }
 
 .card-conocimientos {
@@ -179,17 +137,16 @@ h2 {
     box-sizing: border-box;
     width: 40%;
     text-align: center;
-
 }
 
 .div-conocimientos {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 /* Sección Quote */
+
 .container-quote {
     background-color: #ff6884;
     display: flex;
@@ -228,21 +185,19 @@ h2 {
 
 .container-proyectos {
     padding: 50px 100px;
-
 }
 
 .card-proyectos {
-
     width: 45vh;
     height: 45vh;
 }
 
 .image-card {
-
     height: 30vh;
 }
 
 /* Sección Formulario */
+
 .section-form {
     background-color: #FFEFEF;
     display: flex;
@@ -270,7 +225,6 @@ h2 {
 .container-contactame-click {
     display: flex;
     flex-direction: column;
-
 }
 
 .contacto-icon {
@@ -278,7 +232,6 @@ h2 {
     flex-direction: row;
     align-items: center;
     margin: 10px 0;
-
 }
 
 .icon {
@@ -293,12 +246,10 @@ h2 {
 
 .form-names {
     display: flex;
-
 }
 
 .txt-contact {
     font-size: 1.3rem;
-
 }
 
 input {
@@ -332,10 +283,7 @@ input {
     background-color: #ff6884;
 }
 
-
 /* Footer */
-
-
 
 .section-footer {
     width: 100%;
@@ -344,7 +292,6 @@ input {
     color: #F3D0D7;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 .footer-nav {
@@ -354,7 +301,6 @@ input {
     align-items: center;
     width: 100%;
     height: 60px;
-
 }
 
 .footer-element {
@@ -365,29 +311,38 @@ input {
     border-radius: 10px;
 }
 
-/*
+/* Reutilizable */
 
-
-.nav-bar {
-
-    width: 100%;
-    height: 60px;
+.section-doble {
     display: flex;
     flex-direction: row;
-    justify-content: end;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-*/
+    justify-content: space-around;
+}
 
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
 
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 200px;
+}
 
-
-
-
-
-
-
-
+.card {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid 1px gray;
+    text-align: center;
+    transition: 0.1s;
+}
 
 /*MEDIA QUERY MOBILE*/
 @media (max-width: 1000px) {
