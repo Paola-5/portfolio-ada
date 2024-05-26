@@ -22,7 +22,7 @@
     transition: 0.1s;
 }
 
-.card:hover {
+.card-conocimientos:hover {
     border: solid 2px #ff6884;
 }
 

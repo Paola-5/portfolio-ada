@@ -25,6 +25,10 @@
     transition: 0.1s;
 }
 
+.card-proyectos:hover {
+    border: solid 2px #ff6884;
+}
+
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
     .section-proyectos {

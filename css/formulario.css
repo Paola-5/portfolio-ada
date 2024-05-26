@@ -52,6 +52,16 @@
     color: white;
 }
 
+.text-decoration {
+    text-decoration-line: none;
+    color: black;
+}
+
+.text-decoration :hover {
+    color: #ff6884;
+}
+
+
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
 
@@ -93,11 +103,11 @@
         width: 100%;
         padding: 10px;
     }
-    
+
     .input-izq {
         margin-right: 10px;
     }
-    
+
     .input-der {
         margin-left: 10px;
     }
@@ -168,11 +178,11 @@
     .input-izq {
         margin-right: 10px;
     }
-    
+
     .input-der {
         margin-left: 10px;
     }
-    
+
     .contacto-icon {
         margin: 10px 0;
     }
@@ -238,7 +248,7 @@
         width: 100%;
         padding: 10px;
     }
-    
+
     .contacto-icon {
         margin: 10px 0;
     }
