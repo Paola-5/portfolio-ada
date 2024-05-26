@@ -56,6 +56,7 @@
     }
 
     .centrado-texto {
+        font-size: 1.2rem;
         width: 40%;
     }
 
@@ -65,7 +66,7 @@
 }
 
 /*MEDIA QUERY TABLET*/
-@media (min-width: 576px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
     .div-conocimientos {
         padding-top: 100px;
     }
@@ -82,7 +83,7 @@
     }
 
     .centrado-texto {
-        font-size: 2rem;
+        font-size: 1.2rem;
         width: 60vh;
     }
 
@@ -92,25 +93,30 @@
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 576px) {
+@media  (max-width: 700px) {
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
     .div-conocimientos {
         padding-top: 100px;
     }
 
     .container-cards-conocimientos {
-        padding-top: 100px;
-        padding: 50px 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .card-conocimientos {
-        width: 35vh;
-        height: 35vh;
+        width: 20vh;
+        height: 20vh;
         margin: 10px;
     }
 
     .centrado-texto {
-        font-size: 2rem;
-        width: 60vh;
+        font-size: 1.2rem;
+        width: 40vh;
     }
 
     .card-image {

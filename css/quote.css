@@ -36,7 +36,7 @@
 }
 
 /*MEDIA QUERY TABLET*/
-@media (min-width: 576px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
     .img-quote {
         width: 100px;
         height: 100px;
@@ -44,7 +44,7 @@
     }
 
     .txt-bq {
-        font-size: 2rem;
+        font-size: 22px;
     }
     
     .quote-signature {
@@ -54,7 +54,7 @@
 }
 
 /*MEDIA QUERY MOBILE*/
-@media (max-width: 576px) {
+@media (max-width: 700px) {
     .img-quote {
         width: 80px;
         height: 80px;

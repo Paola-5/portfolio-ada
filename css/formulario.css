@@ -27,11 +27,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 0;
-}
-
-.icon {
-    margin-right: 10px;
 }
 
 .txt-form {
@@ -42,39 +37,28 @@
     display: flex;
 }
 
-input {
-    height: 40px;
-}
-
 .mi-input {
-    margin: 10px 0;
     border-radius: 20px;
     border: solid 1px #FFEFEF;
     background-color: #FFEFEF;
-    width: 100%;
-    padding: 10px;
 }
 
 .name-input {
     flex-grow: 1;
 }
 
-.input-izq {
-    margin-right: 10px;
-}
-
-.input-der {
-    margin-left: 10px;
-}
-
 .enviar {
-    height: 50px;
-    width: 120px;
     background-color: #ff6884;
+    color: white;
 }
 
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
+
+    input {
+        height: 40px;
+    }
+
     .container-form {
         margin: 120px;
         padding: 30px;
@@ -95,10 +79,42 @@ input {
     .txt-contact {
         font-size: 1.3rem;
     }
+
+    .contacto-icon {
+        margin: 10px 0;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+
+    .mi-input {
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .input-izq {
+        margin-right: 10px;
+    }
+    
+    .input-der {
+        margin-left: 10px;
+    }
+
+    .enviar {
+        height: 50px;
+        width: 120px;
+    }
 }
 
 /*MEDIA QUERY TABLET*/
-@media (min-width: 576px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
+
+    input {
+        height: 40px;
+    }
+
     .container-form {
         margin: 0;
         padding: 0px;
@@ -114,7 +130,7 @@ input {
         box-sizing: border-box;
         width: 85%;
         margin: 20px 0;
-        
+
     }
 
     .txt-contact {
@@ -126,6 +142,7 @@ input {
     }
 
     .icon {
+        margin-right: 10px;
         width: 40px;
         height: 40px;
     }
@@ -143,29 +160,99 @@ input {
 
     .mi-input {
         font-size: 1.5rem;
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .input-izq {
+        margin-right: 10px;
+    }
+    
+    .input-der {
+        margin-left: 10px;
+    }
+    
+    .contacto-icon {
+        margin: 10px 0;
+    }
+
+    .enviar {
+        height: 50px;
+        width: 120px;
     }
 }
 
 /*MEDIA QUERY MOBILE*/
-@media (max-width: 576px) {
+@media (max-width: 700px) {
+
+    input {
+        height: 40px;
+    }
+
     .container-form {
-        margin: 120px;
-        padding: 30px;
+        flex-direction: column;
     }
 
     .container-form-x2 {
-        width: 50%;
-        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .txt-form {
         box-sizing: border-box;
         width: 85%;
         margin: 20px 0;
-        
+
     }
 
     .txt-contact {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .contacto-icon {
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .container-contactame-click {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mi-form {
+        font-size: 1.7rem;
+    }
+
+    .mi-input {
+        font-size: 1.5rem;
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .contacto-icon {
+        margin: 10px 0;
+    }
+
+    .escribime {
+        margin: 15px;
+    }
+
+    .form-names {
+        flex-direction: column;
+    }
+
+    .enviar {
+        height: 50px;
+        width: 120px;
     }
 }

@@ -47,7 +47,7 @@
 }
 
 /*MEDIA QUERY TABLET*/
-@media (min-width: 576px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
     .section-proyectos {
         padding-top: 100px;
     }
@@ -63,18 +63,19 @@
     }
 
     .image-card {
-        height: 20vh;
+        height: 15vh;
     }
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 576px){
+@media  (max-width: 700px){
     .section-proyectos {
         padding-top: 100px;
     }
 
     .container-proyectos {
-        padding: 50px 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .card-proyectos {

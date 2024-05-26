@@ -37,7 +37,7 @@ h2 {
 }
 
 /*MEDIA QUERY TABLET*/
-@media (min-width: 576px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
     .nombre-card {
         padding-top: 20px;
         font-size: 1.5rem;
@@ -45,9 +45,13 @@ h2 {
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 576px){
+@media  (max-width: 700px){
     .nombre-card {
         padding-top: 20px;
         font-size: 20px;
+    }
+
+    .section-doble {
+        flex-direction: column;
     }
 }

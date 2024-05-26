@@ -32,11 +32,6 @@
     text-decoration-line: none;
 }
 
-.img-ppl {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-}
 
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
@@ -64,15 +59,18 @@
         margin: 20px 0px;
         font-size: 1rem;
     }
-    
+
     .img-ppl {
         margin-right: 160px;
         height: 380px;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
     }
 }
 
 /*MEDIA QUERY TABLET*/
-@media (min-width: 576px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
     .presentacion {
         padding-top: 150px;
         padding-bottom: 100px;
@@ -85,54 +83,69 @@
     .section-ppl-name {
         font-size: 90px;
     }
-    
+
     .section-ppl-desc {
         font-weight: 80;
         font-size: 20px;
     }
-    
+
     .button-section-ppl {
         width: 20vh;
         height: 36px;
         margin: 20px 0px;
         font-size: 1rem;
     }
-    
+
     .img-ppl {
         margin-right: 160px;
         height: 380px;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
     }
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 576px){
+@media (max-width: 700px) {
     .presentacion {
         padding-top: 150px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
 
     .div-section-ppl {
-        margin-left: 160px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+        align-items: center;
+    }
+
+    .div-image-ppl {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
     }
 
     .section-ppl-name {
         font-size: 90px;
     }
-    
+
     .section-ppl-desc {
         font-weight: 80;
         font-size: 20px;
     }
-    
+
     .button-section-ppl {
         width: 20vh;
         height: 36px;
         margin: 20px 0px;
         font-size: 1rem;
+        ;
     }
-    
+
     .img-ppl {
-        margin-right: 160px;
-        height: 380px;
+        margin-top: 20px;
+    }
+    .imagen-presentacion {
+        width: 30vh;
     }
 }
