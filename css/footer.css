@@ -18,6 +18,11 @@
     border-radius: 10px;
 }
 
+.footer-element {
+    color: #F3D0D7;
+    text-decoration-line: none;
+}
+
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
     .section-footer {
