@@ -30,15 +30,8 @@
     font-size: 80px;
 }
 
-.nombre-card {
-    padding-top: 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .centrado-texto {
     box-sizing: border-box;
-    width: 40%;
     text-align: center;
 }
 
@@ -51,7 +44,11 @@
 
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
-    .container-conocimientos {
+    .div-conocimientos {
+        padding-top: 100px;
+    }
+
+    .container-cards-conocimientos {
         padding-top: 100px;
         padding: 50px 200px;
     }
@@ -60,27 +57,44 @@
         width: 35vh;
         height: 35vh;
         margin: 10px;
+    }
+
+    .centrado-texto {
+        width: 40%;
     }
 
 }
 
 /*MEDIA QUERY TABLET*/
 @media (min-width: 576px) and (max-width: 1000px) {
-    .container-conocimientos {
+    .div-conocimientos {
         padding-top: 100px;
-        padding: 50px 200px;
+    }
+
+    .container-cards-conocimientos {
+        padding-top: 200px;
+        padding: 50px 100px;
     }
 
     .card-conocimientos {
-        width: 20vh;
-        height: 20vh;
+        width: 25vh;
+        height: 25vh;
         margin: 10px;
+    }
+
+    .centrado-texto {
+        font-size: 2rem;
+        width: 60vh;
     }
 }
 
 /*MEDIA QUERY MOBILE*/
 @media  (max-width: 576px) {
-    .container-conocimientos {
+    .div-conocimientos {
+        padding-top: 100px;
+    }
+
+    .container-cards-conocimientos {
         padding-top: 100px;
         padding: 50px 200px;
     }
@@ -89,5 +103,10 @@
         width: 35vh;
         height: 35vh;
         margin: 10px;
+    }
+
+    .centrado-texto {
+        font-size: 2rem;
+        width: 60vh;
     }
 }
