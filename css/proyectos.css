@@ -11,13 +11,43 @@
 
 .container-proyectos {
     padding: 50px 100px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-proyectos {
     width: 45vh;
     height: 45vh;
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid 1px gray;
+    text-align: center;
+    transition: 0.1s;
 }
 
 .image-card {
     height: 30vh;
+}
+
+
+/*MEDIA QUERY DESKTOP*/
+@media (min-width: 1000px) {
+
+}
+
+/*MEDIA QUERY TABLET*/
+@media (min-width: 576px) and (max-width: 1000px) {
+
+}
+
+/*MEDIA QUERY MOBILE*/
+@media  (max-width: 576px){
+
 }

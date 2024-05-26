@@ -2,13 +2,24 @@
 
 .container-conocimientos {
     background-color: #FFEFEF;
-    padding-top: 100px;
+}
+
+.container-cards-conocimientos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-conocimientos {
-    width: 35vh;
-    height: 35vh;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid 1px gray;
+    text-align: center;
+    transition: 0.1s;
 }
 
 .card:hover {
@@ -35,4 +46,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+/*MEDIA QUERY DESKTOP*/
+@media (min-width: 1000px) {
+    .container-conocimientos {
+        padding-top: 100px;
+        padding: 50px 200px;
+    }
+
+    .card-conocimientos {
+        width: 35vh;
+        height: 35vh;
+        margin: 10px;
+    }
+
+}
+
+/*MEDIA QUERY TABLET*/
+@media (min-width: 576px) and (max-width: 1000px) {
+    .container-conocimientos {
+        padding-top: 100px;
+        padding: 50px 200px;
+    }
+
+    .card-conocimientos {
+        width: 20vh;
+        height: 20vh;
+        margin: 10px;
+    }
+}
+
+/*MEDIA QUERY MOBILE*/
+@media  (max-width: 576px) {
+    .container-conocimientos {
+        padding-top: 100px;
+        padding: 50px 200px;
+    }
+
+    .card-conocimientos {
+        width: 35vh;
+        height: 35vh;
+        margin: 10px;
+    }
 }

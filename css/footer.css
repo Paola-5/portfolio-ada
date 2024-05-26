@@ -25,3 +25,18 @@
 .github-icon {
     border-radius: 10px;
 }
+
+/*MEDIA QUERY DESKTOP*/
+@media (min-width: 1000px) {
+
+}
+
+/*MEDIA QUERY TABLET*/
+@media (min-width: 576px) and (max-width: 1000px) {
+
+}
+
+/*MEDIA QUERY MOBILE*/
+@media  (max-width: 576px){
+
+}
