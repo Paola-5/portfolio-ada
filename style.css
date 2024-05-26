@@ -241,7 +241,8 @@ h2 {
 }
 
 .image-card {
-    width: 20vh;
+    
+    height: 30vh;
 }
 
 /* Sección Formulario */
