@@ -1,0 +1,86 @@
+/* Sección Formulario */
+
+.section-form {
+    background-color: #FFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-form {
+    background-color: white;
+    border-radius: 30px;
+    border: solid 1px gray;
+    margin: 120px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-form-x2 {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 50px;
+}
+
+.container-contactame-click {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.txt-form {
+    box-sizing: border-box;
+    width: 75%;
+    margin: 20px 0;
+}
+
+.form-names {
+    display: flex;
+}
+
+.txt-contact {
+    font-size: 1.3rem;
+}
+
+input {
+    height: 40px;
+}
+
+.mi-input {
+    margin: 10px 0;
+    border-radius: 20px;
+    border: solid 1px #FFEFEF;
+    background-color: #FFEFEF;
+    width: 100%;
+    padding: 10px;
+}
+
+.name-input {
+    flex-grow: 1;
+}
+
+.input-izq {
+    margin-right: 10px;
+}
+
+.input-der {
+    margin-left: 10px;
+}
+
+.enviar {
+    height: 50px;
+    width: 120px;
+    background-color: #ff6884;
+}

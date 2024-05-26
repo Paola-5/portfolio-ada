@@ -1,0 +1,42 @@
+/* NAVEGADOR */
+
+.nav-container {
+    background-color: #F3D0D7;
+    padding-right: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 3px 3px 4px 3px #d4bdbd
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-element {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    color: black;
+    text-decoration-line: none;
+}
+
+.nav-element:hover {
+    color: #ff6884;
+}
+
+.contact {
+    background-color: #ff6884;
+    color: white;
+}
+
+.contact:hover {
+    background-color: #fc889d;
+    color: white;
+}

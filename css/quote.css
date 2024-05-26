@@ -1,0 +1,27 @@
+/* Sección Quote */
+
+.container-quote {
+    background-color: #ff6884;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-quote {
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+}
+
+.txt-bq {
+    color: #F3D0D7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.quote-signature {
+    margin: 50px;
+    font-style: normal;
+    font-weight: bold;
+}

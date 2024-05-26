@@ -1,0 +1,54 @@
+/* Sección Presentacion */
+
+.seccion-ppl-me {
+    font-size: 45px;
+}
+
+.presentacion {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.div-section-ppl {
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    flex-grow: 1;
+}
+
+.section-ppl-name {
+    font-style: italic;
+    font-size: 90px;
+    color: #ff6884;
+}
+
+.section-ppl-desc {
+    font-weight: 80;
+    font-size: 20px;
+}
+
+.button-section-ppl {
+    background-color: #ff6884;
+    border-radius: 40px;
+    width: 20vh;
+    height: 36px;
+    margin: 20px 0px;
+    border-color: #ff6884;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-self: center;
+}
+
+.button-a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.img-ppl {
+    display: flex;
+    justify-content: center;
+    margin-right: 160px;
+    flex-grow: 1;
+    height: 380px;
+}
