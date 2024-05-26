@@ -40,11 +40,11 @@ body {
 
 .contact {
     background-color: #ff6884;
-
+    color: white;
 }
 
 
-/*Main}*/
+/* Sección Main}*/
 
 
 .section-doble {
@@ -87,9 +87,10 @@ h2 {
     height: 36px;
     margin: 20px 0px;
     border-color: #ff6884;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-self: center;
+    color: white;
 }
 
 .div-section-ppl {
@@ -114,7 +115,7 @@ h2 {
 }
 
 .card {
- 
+
     margin: 10px;
     display: flex;
     align-items: center;
@@ -132,7 +133,7 @@ h2 {
 }
 
 .card:hover {
-    border:  solid 2px #ff6884;
+    border: solid 2px #ff6884;
 }
 
 .card-image {
@@ -159,13 +160,12 @@ h2 {
 
 }
 
-/* Seccion Quote */
+/* Sección Quote */
 .container-quote {
-    background-color: #ff6884 ;
+    background-color: #ff6884;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
 }
 
 .img-quote {
@@ -173,9 +173,9 @@ h2 {
     height: 80px;
     margin: 50px;
 }
- 
+
 .txt-bq {
-    color:  #F3D0D7;
+    color: #F3D0D7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -185,9 +185,9 @@ h2 {
     margin: 50px;
     font-style: normal;
     font-weight: bold;
- }
+}
 
-/* Seccion Mis Proyecyos */
+/* Sección Mis Proyecyos */
 
 .section-proyectos {
     display: flex;
@@ -199,11 +199,11 @@ h2 {
 
 .container-proyectos {
     padding: 50px 100px;
-    
+
 }
 
 .card-proyectos {
-    
+
     width: 45vh;
     height: 45vh;
 }
@@ -211,7 +211,131 @@ h2 {
 .image-card {
     width: 20vh;
 }
- 
+
+/* Sección Formulario */
+gt
+.section-form {
+    background-color: #FFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-form {
+    background-color: white;
+    border-radius: 30px;
+    border: solid 1px gray;
+    margin: 120px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-form-x2 {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 50px;
+
+}
+
+.txt-form {
+    box-sizing: border-box;
+    width: 75%;
+    margin: 20px 0;
+}
+
+.form-names {
+    display: flex;
+
+}
+
+.txt-contact {
+    font-size: 1.3rem;
+
+}
+
+input {
+    height: 40px;
+}
+
+.mi-input {
+    margin: 10px 0;
+    border-radius: 20px;
+    border: solid 1px #FFEFEF;
+    background-color: #FFEFEF;
+    width: 100%;
+    padding: 10px;
+}
+
+.name-input {
+    flex-grow: 1;
+}
+
+.input-izq {
+    margin-right: 10px;
+}
+
+.input-der {
+    margin-left: 10px;
+}
+
+.enviar {
+    height: 50px;
+    width: 120px;
+    background-color: #ff6884;
+}
+
+
+/* Footer */
+
+
+
+.section-footer {
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #ff6884;
+    color: #F3D0D7;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+   
+}
+
+.footer-element {
+    margin: 0px 20px;
+}
+
+/*
+
+
+.nav-bar {
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+*/
+
+
+
+
+
+
+
+
 
 
 
@@ -258,12 +382,12 @@ h2 {
         font-size: 50px;
     }
 
-     
-.txt-bq {
-    color:  #F3D0D7;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    font-style: italic;
-}
+
+    .txt-bq {
+        color: #F3D0D7;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-style: italic;
+    }
 
 }
