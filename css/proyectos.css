@@ -6,7 +6,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 100px;
 }
 
 .container-proyectos {    
@@ -17,7 +16,6 @@
 }
 
 .card-proyectos {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +27,10 @@
 
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
+    .section-proyectos {
+        padding-top: 100px;
+    }
+
     .container-proyectos {
         padding: 50px 100px;
     }
@@ -46,6 +48,10 @@
 
 /*MEDIA QUERY TABLET*/
 @media (min-width: 576px) and (max-width: 1000px) {
+    .section-proyectos {
+        padding-top: 100px;
+    }
+
     .container-proyectos {
         padding: 50px 50px;
     }
@@ -63,6 +69,10 @@
 
 /*MEDIA QUERY MOBILE*/
 @media  (max-width: 576px){
+    .section-proyectos {
+        padding-top: 100px;
+    }
+
     .container-proyectos {
         padding: 50px 100px;
     }

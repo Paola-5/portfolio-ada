@@ -26,10 +26,6 @@
     border: solid 2px #ff6884;
 }
 
-.card-image {
-    font-size: 80px;
-}
-
 .centrado-texto {
     box-sizing: border-box;
     text-align: center;
@@ -63,6 +59,9 @@
         width: 40%;
     }
 
+    .card-image {
+        font-size: 80px;
+    }
 }
 
 /*MEDIA QUERY TABLET*/
@@ -86,6 +85,10 @@
         font-size: 2rem;
         width: 60vh;
     }
+
+    .card-image {
+        font-size: 80px;
+    }
 }
 
 /*MEDIA QUERY MOBILE*/
@@ -108,5 +111,9 @@
     .centrado-texto {
         font-size: 2rem;
         width: 60vh;
+    }
+
+    .card-image {
+        font-size: 80px;
     }
 }

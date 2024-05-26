@@ -23,7 +23,6 @@ h2 {
 }
 
 .nombre-card {
-    padding-top: 20px;
     font-weight: bold;
 }
 
@@ -31,6 +30,7 @@ h2 {
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
     .nombre-card {
+        padding-top: 20px;
         font-size: 20px;
     }
     
@@ -39,6 +39,7 @@ h2 {
 /*MEDIA QUERY TABLET*/
 @media (min-width: 576px) and (max-width: 1000px) {
     .nombre-card {
+        padding-top: 20px;
         font-size: 1.5rem;
     }
 }
@@ -46,6 +47,7 @@ h2 {
 /*MEDIA QUERY MOBILE*/
 @media  (max-width: 576px){
     .nombre-card {
+        padding-top: 20px;
         font-size: 20px;
     }
 }
