@@ -131,11 +131,8 @@ h2 {
 .imagen-presentacion {}
 
 .container-conocimientos {
-
     background-color: #FFEFEF;
-
     padding-top: 100px;
-
 }
 
 .container-cards {
@@ -241,7 +238,7 @@ h2 {
 }
 
 .image-card {
-    
+
     height: 30vh;
 }
 
@@ -268,7 +265,24 @@ h2 {
     box-sizing: border-box;
     width: 50%;
     margin: 50px;
+}
 
+.container-contactame-click {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacto-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.icon {
+    margin-right: 10px;
 }
 
 .txt-form {
@@ -347,6 +361,10 @@ input {
     margin: 0px 20px;
 }
 
+.github-icon {
+    border-radius: 10px;
+}
+
 /*
 
 
@@ -372,48 +390,79 @@ input {
 
 
 /*MEDIA QUERY MOBILE*/
-@media (max-width: 576px) {
+@media (max-width: 1000px) {
 
+    /* Seccion Presentacion */
     .section-doble {
         flex-wrap: wrap;
         justify-content: center;
 
     }
 
+    .seccion-ppl-me {
+        margin-top: 120px;
+        font-size: 60px;
+    }
+
     .section-ppl-name {
         text-align: center;
+        font-weight: 900;
+        font-size: 150px;
     }
 
     .section-ppl-desc {
         text-align: center;
-
+        font-size: 40px;
     }
 
     .div-section-ppl {
         align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+
+    .button-section-ppl {
+        background-color: #ff6884;
+        border-radius: 40px;
+        width: 60vh;
+        height: 100px;
+        margin: 20px 0px;
+        border-color: #ff6884;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        justify-self: center;
     }
 
     .img-ppl {
-        width: 100vh;
+
+
+        margin-left: 0px;
+        margin-right: 0px;
         display: flex;
         justify-content: center;
     }
 
-    /**/
     .imagen-presentacion {
-        width: 90%;
+        margin-top: 40px;
+
+    }
+
+    /* Seccion Conocimientos */
+
+    .container-cards {
+        padding: 40px;
     }
 
     .card {
-        width: 20vh;
-        height: 20vh;
+        width: 30vh;
+        height: 30vh;
         margin: 10px;
     }
 
     .card-image {
-        font-size: 50px;
+        font-size: 75px;
     }
-
 
     .txt-bq {
         color: #F3D0D7;
@@ -421,5 +470,54 @@ input {
         font-size: 12px;
         font-style: italic;
     }
+
+    .container-conocimientos {}
+
+
+    .container-quote {}
+
+    .section-proyectos {}
+
+    .card-proyectos {
+
+        width: 25vh;
+        height: 25vh;
+    }
+
+    .image-card {
+
+        height: 12vh;
+    }
+
+    /* Sección Formulario */
+    .section-form {
+        background-color: #FFEFEF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-form {
+        background-color: white;
+        border-radius: 0px;
+        border: solid 1px gray;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .container-form-x2 {
+        box-sizing: border-box;
+        width: 50%;
+        margin: 50px;
+    }
+
+    .txt-contact {
+        font-size: 1rem;
+    }
+
+    .section-footer {}
 
 }
