@@ -9,10 +9,6 @@
 
 .container-form {
     background-color: white;
-    border-radius: 30px;
-    border: solid 1px gray;
-    margin: 120px;
-    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -20,8 +16,6 @@
 
 .container-form-x2 {
     box-sizing: border-box;
-    width: 50%;
-    margin: 50px;
 }
 
 .container-contactame-click {
@@ -42,16 +36,10 @@
 
 .txt-form {
     box-sizing: border-box;
-    width: 75%;
-    margin: 20px 0;
 }
 
 .form-names {
     display: flex;
-}
-
-.txt-contact {
-    font-size: 1.3rem;
 }
 
 input {
@@ -87,15 +75,97 @@ input {
 
 /*MEDIA QUERY DESKTOP*/
 @media (min-width: 1000px) {
+    .container-form {
+        margin: 120px;
+        padding: 30px;
+        border-radius: 30px;
+        border: solid 1px gray;
+    }
 
+    .container-form-x2 {
+        width: 50%;
+        margin: 50px;
+    }
+
+    .txt-form {
+        width: 75%;
+        margin: 20px 0;
+    }
+
+    .txt-contact {
+        font-size: 1.3rem;
+    }
 }
 
 /*MEDIA QUERY TABLET*/
 @media (min-width: 576px) and (max-width: 1000px) {
+    .container-form {
+        margin: 0;
+        padding: 0px;
+        flex-direction: column;
+    }
 
+    .container-form-x2 {
+        width: 100%;
+        padding: 20px 50px;
+    }
+
+    .txt-form {
+        box-sizing: border-box;
+        width: 85%;
+        margin: 20px 0;
+        
+    }
+
+    .txt-contact {
+        font-size: 1.7rem;
+    }
+
+    .contacto-icon {
+        font-size: 1.7rem;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container-contactame-click {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mi-form {
+        font-size: 1.7rem;
+    }
+
+    .mi-input {
+        font-size: 1.5rem;
+    }
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 576px){
+@media (max-width: 576px) {
+    .container-form {
+        margin: 120px;
+        padding: 30px;
+    }
 
+    .container-form-x2 {
+        width: 50%;
+        margin: 50px;
+    }
+
+    .txt-form {
+        box-sizing: border-box;
+        width: 85%;
+        margin: 20px 0;
+        
+    }
+
+    .txt-contact {
+        font-size: 1.3rem;
+    }
 }
