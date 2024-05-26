@@ -10,15 +10,6 @@ body {
 }
 
 /* NAVEGADOR */
-/*
-.box1 {
-    background-color: lightseagreen;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    width: 100%;
-    height: 50px;
-}*/
 
 .nav-container {
     background-color: #F3D0D7;
@@ -27,6 +18,7 @@ body {
     width: 100%;
     z-index: 2;
 
+    box-shadow: 3px 3px 4px 3px #d4bdbd
 }
 
 .nav-bar {
@@ -42,13 +34,15 @@ body {
 }
 
 .nav-element {
-
     padding: 10px;
     margin: 20px;
     border-radius: 30px;
+    color: black;
+    text-decoration-line: none;
+}
 
-
-
+.nav-element:hover {
+    color: #ff6884;
 }
 
 .contact {
@@ -56,19 +50,19 @@ body {
     color: white;
 }
 
+.contact:hover {
+    background-color: #fc889d;
+    color: white;
+}
 
 /* Sección Main}*/
 
 
 .section-doble {
-
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
-
 }
 
 h1 {
@@ -79,6 +73,12 @@ h1 {
 h2 {
     font-size: 45px;
     font-weight: bold;
+}
+
+.presentacion {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    justify-content: center;
 }
 
 .section-ppl-name {
@@ -103,13 +103,32 @@ h2 {
     font-size: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-self: center;
+}
+
+.button-a {
     color: white;
+    text-decoration-line: none;
 }
 
 .div-section-ppl {
     display: flex;
     flex-direction: column;
+    margin-left: 160px;
+    flex-grow: 1;
 }
+
+.img-ppl {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 160px;
+    flex-grow: 1;
+    height: 380px;
+
+
+}
+
+.imagen-presentacion {}
 
 .container-conocimientos {
 
@@ -136,7 +155,7 @@ h2 {
     border-radius: 10px;
     border: solid 1px gray;
     text-align: center;
-
+    transition: 0.1s;
 }
 
 .card-conocimientos {
@@ -226,7 +245,6 @@ h2 {
 }
 
 /* Sección Formulario */
-gt
 .section-form {
     background-color: #FFEFEF;
     display: flex;
@@ -311,7 +329,7 @@ input {
     color: #F3D0D7;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+
 }
 
 .footer-nav {
@@ -321,7 +339,7 @@ input {
     align-items: center;
     width: 100%;
     height: 60px;
-   
+
 }
 
 .footer-element {
