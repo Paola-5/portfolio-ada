@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --fucsia: #ff6884;
+    --rosa-blanco: #FFEFEF;
+
 }
 
 body {
@@ -33,7 +36,7 @@ h2 {
         padding-top: 20px;
         font-size: 20px;
     }
-    
+
 }
 
 /*MEDIA QUERY TABLET*/
@@ -45,7 +48,7 @@ h2 {
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 700px){
+@media (max-width: 700px) {
     .nombre-card {
         padding-top: 20px;
         font-size: 20px;

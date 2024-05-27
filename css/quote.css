@@ -1,7 +1,7 @@
 /* Sección Quote */
 
 .container-quote {
-    background-color: #ff6884;
+    background-color: var(--fucsia);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@
     .txt-bq {
         font-size: 22px;
     }
-    
+
     .quote-signature {
         font-size: 2.5rem;
         margin: 50px;

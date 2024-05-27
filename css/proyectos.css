@@ -1,4 +1,3 @@
-
 /* Sección Mis Proyecyos */
 
 .section-proyectos {
@@ -8,7 +7,7 @@
     text-align: center;
 }
 
-.container-proyectos {    
+.container-proyectos {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -26,7 +25,7 @@
 }
 
 .card-proyectos:hover {
-    border: solid 2px #ff6884;
+    border: solid 2px var(--fucsia);
 }
 
 /*MEDIA QUERY DESKTOP*/
@@ -44,7 +43,7 @@
         height: 45vh;
         margin: 10px;
     }
-    
+
     .image-card {
         height: 30vh;
     }
@@ -72,7 +71,7 @@
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 700px){
+@media (max-width: 700px) {
     .section-proyectos {
         padding-top: 100px;
     }

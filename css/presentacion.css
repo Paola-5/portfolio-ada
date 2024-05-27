@@ -16,13 +16,13 @@
 
 .section-ppl-name {
     font-style: italic;
-    color: #ff6884;
+    color: var(--fucsia);
 }
 
 .button-section-ppl {
-    background-color: #ff6884;
+    background-color: var(--fucsia);
     border-radius: 40px;
-    border-color: #ff6884;
+    border-color: var(--fucsia);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-self: center;
 }
@@ -148,6 +148,7 @@
     .img-ppl {
         margin-top: 20px;
     }
+
     .imagen-presentacion {
         width: 30vh;
     }

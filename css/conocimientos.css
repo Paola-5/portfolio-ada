@@ -1,7 +1,7 @@
 /* Seccion Mis Conocimientos */
 
 .container-conocimientos {
-    background-color: #FFEFEF;
+    background-color: var(--rosa-blanco);
 }
 
 .container-cards-conocimientos {
@@ -23,7 +23,7 @@
 }
 
 .card-conocimientos:hover {
-    border: solid 2px #ff6884;
+    border: solid 2px var(--fucsia);
 }
 
 .centrado-texto {
@@ -93,7 +93,7 @@
 }
 
 /*MEDIA QUERY MOBILE*/
-@media  (max-width: 700px) {
+@media (max-width: 700px) {
     h2 {
         font-size: 3rem;
         text-align: center;

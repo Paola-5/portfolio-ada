@@ -1,7 +1,7 @@
 /* Sección Formulario */
 
 .section-form {
-    background-color: #FFEFEF;
+    background-color: var(--rosa-blanco);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,8 +39,8 @@
 
 .mi-input {
     border-radius: 20px;
-    border: solid 1px #FFEFEF;
-    background-color: #FFEFEF;
+    border: solid 1px var(--rosa-blanco);
+    background-color: var(--rosa-blanco);
 }
 
 .name-input {
@@ -48,7 +48,7 @@
 }
 
 .enviar {
-    background-color: #ff6884;
+    background-color: var(--fucsia);
     color: white;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .text-decoration :hover {
-    color: #ff6884;
+    color: var(--fucsia);
 }
 
 

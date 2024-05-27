@@ -1,7 +1,7 @@
 /* Footer */
 
 .section-footer {
-    background-color: #ff6884;
+    background-color: var(--fucsia);
     color: #F3D0D7;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -57,9 +57,10 @@
 
 /*MEDIA QUERY MOBILE*/
 @media (max-width: 700px) {
-    .footer-texts { 
+    .footer-texts {
         display: none;
     }
+
     .section-footer {
         padding: 60px 0px;
     }
