@@ -28,3 +28,16 @@ Este es mi primer portfolio y trabaje con las siguientes tecnologias:
 - FOOTER
     - Contiene links de navegación a la página y links a mis redes sociales
 
+***
+## Desarrollo
+
+Para el desarrollo responsive se probó con los siguientes dispositivos
+
+- Desktop
+- Mobile
+    - IPhone SE
+    - Samsung Galaxy S8+
+    - Motorola Edge 30 Neo
+- Tablet
+    - IPad Mini
+    - Surface Duo
